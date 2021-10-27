@@ -1,0 +1,54 @@
+{\rtf1\ansi\ansicpg936\cocoartf2580
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset134 PingFangSC-Regular;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 - class_name: 
+\f1 \'d3\'d1\'c7\'e9\'c1\'b4\'bd\'d3
+\f0 \
+  class_desc: 
+\f1 \'c4\'c7\'d0\'a9\'c8\'cb\'a3\'ac\'c4\'c7\'d0\'a9\'ca\'c2
+\f0 \
+  link_list:\
+    - name: JerryC\
+      link: https://jerryc.me/\
+      avatar: https://jerryc.me/image/avatar.png\
+      descr: 
+\f1 \'bd\'f1\'c8\'d5\'ca\'c2
+\f0 ,
+\f1 \'bd\'f1\'c8\'d5\'b1\'cf
+\f0 \
+    - name: Hexo\
+      link: https://hexo.io/zh-tw/\
+      avatar: https://d33wubrfki0l68.cloudfront.net/6657ba50e702d84afb32fe846bed54fba1a77add/827ae/logo.svg\
+      descr: 
+\f1 \'bf\'ec\'cb\'d9\'a1\'a2\'bc\'f2\'b5\'a5\'c7\'d2\'c7\'bf\'b4\'f3\'b5\'c4\'cd\'f8\'d5\'49\'bf\'f2\'bc\'dc
+\f0 \
+- class_name: 
+\f1 \'cd\'f8\'d5\'be
+\f0 \
+  class_desc: 
+\f1 \'d6\'b5\'b5\'c3\'cd\'c6\'bc\'f6\'b5\'c4\'cd\'f8\'d5\'be
+\f0 \
+  link_list:\
+    - name: Youtube\
+      link: https://www.youtube.com/\
+      avatar: https://i.loli.net/2020/05/14/9ZkGg8v3azHJfM1.png\
+      descr: 
+\f1 \'ca\'d3\'c6\'b5\'cd\'f8\'d5\'be
+\f0 \
+    - name: Weibo\
+      link: https://www.weibo.com/\
+      avatar: https://i.loli.net/2020/05/14/TLJBum386vcnI1P.png\
+      descr: 
+\f1 \'d6\'d0\'b9\'fa\'d7\'ee\'b4\'f3\'c9\'e7\'bd\'bb\'b7\'d6\'cf\'ed\'c6\'bd\'cc\'a8
+\f0 \
+    - name: Twitter\
+      link: https://twitter.com/\
+      avatar: https://i.loli.net/2020/05/14/5VyHPQqR6LWF39a.png\
+      descr: 
+\f1 \'c9\'e7\'bd\'bb\'b7\'d6\'cf\'ed\'c6\'bd\'cc\'a8
+\f0 \
+}

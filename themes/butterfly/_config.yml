@@ -44,9 +44,10 @@ copy:
 # formal:
 #   icon: link || the description
 social:
-   fab fa-github: https://github.com/Dong2048 || Github
-   fas fa-envelope: shuaid@foxmail.com || Email
-   fas fa-weibo: www.baidu.com || weibo
+   # fas fa-rss: https://github.com/Dong2048 || 订阅
+   fas fa-envelope: mailto:shuaid@foxmail.com || Email
+   fab fa-weibo: https://weibo.com/u/3197883960 || 微博
+   fab fa-qq: https://preview.cloud.189.cn/image/imageAction?param=31C28F5A4F8CA57461E99FE12B6CB58B8BAEBEB37378CFABF194F3E13AC187176F8F7F107CFAEF849D9591BC9F13D7D559DA2E32BD8421926EDA6A6B95404F80A33FE2B230A7B6B21C9DCD37BF410A5D10A96463D3EC450A6936293502877B76A320A88C6DE7D6558DE998CF7327529DE7B7B523 || QQ
 
 # search (搜索)
 # --------------------------------------
@@ -276,6 +277,7 @@ comments:
   # Up to two comments system, the first will be shown as default
   # Choose: Disqus/Disqusjs/Livere/Gitalk/Valine/Waline/Utterances/Facebook Comments/Twikoo
   use:
+    - Twikoo
   # - Valine
   # - Disqus
   text: true # Display the comment name next to the button
@@ -374,10 +376,10 @@ facebook_comments:
 # Twikoo
 # https://github.com/imaegoo/twikoo
 twikoo:
-  envId:
+  envId: https://twikoo-dong2048.vercel.app/
   region:
   visitor: false
-  option:
+  option: 
 
 # Chat Services 聊天服务
 # --------------------------------------
@@ -647,7 +649,7 @@ subtitle:
   sub: 业精于勤荒于嬉 行成于思毁于随
 
 # Loading Animation (加載動畫)
-preloader: false
+preloader: true
 
 # aside (側邊欄)
 # --------------------------------------
@@ -665,7 +667,7 @@ aside:
       enable: true
       icon: fab fa-github
       text: Follow Me
-      link: https://github.com/xxxxxx
+      link: https://github.com/Dong2048
   card_announcement:
     enable: true
     content: This is my Blog
@@ -700,8 +702,8 @@ aside:
 # busuanzi count for PV / UV in site
 # 訪問人數
 busuanzi:
-  site_uv: true
-  site_pv: true
+  site_uv: false
+  site_pv: false
   page_pv: true
 
 # Time difference between publish date and now (網頁運行時間)
@@ -712,7 +714,7 @@ runtimeshow:
 
 # Aside widget - Newest Comments 最新评论
 newest_comments:
-  enable: true
+  enable: false
   sort_order: # Don't modify the setting unless you know how it works
   limit: 6
   storage: 10 # unit: mins, save data to localStorage

@@ -1,12 +1,11 @@
 # Hexo Configuration
 ## Docs: https://hexo.io/docs/configuration.html
 ## Source: https://github.com/hexojs/hexo/
-
 # Site
 title: 董帅的个人博客
 subtitle: '博客'
 description: '工作记录，生活记录'
-keywords:
+keywords: 
 author: 董帅
 language: zh-CN
 timezone: ''

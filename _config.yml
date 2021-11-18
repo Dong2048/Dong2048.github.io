@@ -110,6 +110,38 @@ ignore:
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: butterfly
+# 豆瓣电影抓取
+douban:
+  user: 156017924
+  builtin: true
+  book:
+    title: '读书百遍，其义自见'
+    quote: '这里是收录的书籍清单，如果有你喜欢的书籍请留言'
+    meta: true
+    comments: true
+    top_img: https://images.pexels.com/photos/1130980/pexels-photo-1130980.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=1080&w=1920
+    aside: true
+    path: books
+    limit:
+  movie:
+    title: '人生总是那么痛苦吗？还是只有小时候是这样？ ——总是如此'
+    quote: '这里是收录的电影清单，如果有你喜欢的电影请留言'
+    meta: true
+    comments: true
+    top_img: https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fc-ssl.duitang.com%2Fuploads%2Fitem%2F202001%2F26%2F20200126104656_RPc3k.jpeg&refer=http%3A%2F%2Fc-ssl.duitang.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1639819768&t=1cdf208cbba053aa4a6e211bf50bee36
+    aside: true
+    path: movies
+    limit:
+  game:
+    title: 'here we go！'
+    quote: '这里是收录的游戏清单，如果有你喜欢的电影请留言'
+    meta: true
+    comments: true
+    top_img: https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimage.uczzd.cn%2F14910312721124082432.jpg%3Fid%3D0from%3Dexport&refer=http%3A%2F%2Fimage.uczzd.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1639820184&t=4ab801e6b29306a5ff1a5bf59d1c39d9
+    aside: true
+    path: games
+    limit:
+  timeout: 10000 
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment

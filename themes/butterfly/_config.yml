@@ -12,6 +12,8 @@ menu:
      音乐: /music/ || fas fa-music
      相册: /Gallery/ || fas fa-images
      电影: /movies/ || fas fa-video
+     书单: /books/ || fas fa-book
+     游戏: /games/ || fas fa-gamepad
    分类: /categories/ || fas fa-folder-open
    标签: /tags/ || fas fa-tags
    归档: /archives/ || fas fa-archive

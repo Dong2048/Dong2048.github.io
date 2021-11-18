@@ -5,7 +5,7 @@
 # Site
 title: 董帅的个人博客
 subtitle: '博客'
-description: '工作记录，生活记录'
+description: '总结工作中的问题、记录生活中的片段'
 keywords:
 author: 董帅
 language: zh-CN
@@ -30,6 +30,18 @@ code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
 
+#aplayer
+aplayer: 
+  script_dir: js                      # Public 目录下脚本目录路径，默认: 'assets/js'
+  style_dir: css                         # Public 目录下样式目录路径，默认: 'assets/css'
+  #cdn: https://cdn.jsdelivr.net/npm/aplayer@1.10/dist/APlayer.min.js                # 引用 APlayer.js 外部 CDN 地址 (默认不开启)
+  #style_cdn: https://cdn.jsdelivr.net/npm/aplayer@1.10/dist/APlayer.min.css        # 引用 APlayer.css 外部 CDN 地址 (默认不开启)
+  meting: true                                  # MetingJS 支持
+  #meting_api: http://xxx/api.php                # 自定义 Meting API 地址
+  #meting_cdn: https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js        # 引用 Meting.js 外部 CDN 地址 (默认不开启)
+  asset_inject: true                            # 自动插入 Aplayer.js 与 Meting.js 资源脚本, 默认开启
+  #externalLink: http://xxx/aplayer.min.js       # 老版本参数，功能与参数 cdn 相同meting: true
+
 # Writing
 new_post_name: :title.md # File name of new posts
 default_layout: post
@@ -40,7 +52,7 @@ external_link:
   exclude: ''
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true   #aplayer 调整为true
 relative_link: false
 future: true
 highlight:

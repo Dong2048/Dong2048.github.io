@@ -1,12 +1,16 @@
 # Hexo Configuration
 ## Docs: https://hexo.io/docs/configuration.html
 ## Source: https://github.com/hexojs/hexo/
-
 # Site
 title: 董帅的个人博客
 subtitle: '博客'
+<<<<<<< HEAD
+description: '工作记录，生活记录'
+keywords: 
+=======
 description: '总结工作中的问题、记录生活中的片段'
 keywords:
+>>>>>>> 1eab3a22f09184428f941539eb59e7d647afc308
 author: 董帅
 language: zh-CN
 timezone: ''

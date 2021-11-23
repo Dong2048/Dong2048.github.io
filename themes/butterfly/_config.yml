@@ -16,6 +16,7 @@ menu:
      游戏: /games/ || fas fa-gamepad
    分类: /categories/ || fas fa-folder-open
    标签: /tags/ || fas fa-tags
+   笨嘴拙舌: /hpptalk/ || fas fa-edit
    归档: /archives/ || fas fa-archive
    友情链接: /link/ || fas fa-link
    关于我: /about/ || fas fa-heart
@@ -837,6 +838,17 @@ lazyload:
   placeholder:
   blur: false
 
+##说说
+hpptalk:
+  enable: true 
+  domain: sparkling-voice-8f51.dongshuai.workers.dev
+  path:
+  limit:
+  start:
+  js: https://cdn.jsdelivr.net/gh/HexoPlusPlus/HexoPlusPlus@1.2.0/talk_user.js
+  css: https://cdn.jsdelivr.net/gh/HexoPlusPlus/HexoPlusPlus@1.2.0/talk.css
+  option:
+  front_matter:
 # PWA
 # See https://github.com/JLHwung/hexo-offline
 # ---------------

@@ -2,7 +2,7 @@
 title: 相册
 date: 2021-11-01 15:24:34
 type: Gallery
-top_img: "https://images.pexels.com/photos/5199484/pexels-photo-5199484.png?auto=compress&cs=tinysrgb&h=750&w=1260"
+top_img: "https://s3.bmp.ovh/imgs/2021/11/f3ad54f1421d32eb.jpg"
 ---
 <div class="gallery-group-main">
 {% galleryGroup '西藏' '西藏路上的风景' '/tibet' https://preview.cloud.189.cn/image/imageAction?param=34BE49EF2B247B1035DD64FF3F6D78CFE71EA85DE8042281FE998E0D684CB1B7DA3D0F933CED66A0FC6CF13011560DB44CC4BB8EBF930E229BC5061B4A0DBC3E5F599F536FAB33444DA0E7C6D73ED84DAD4511CF240B7FBE0C1FE9238D82D81D50FFA9B48F51E717C6F53FF8ACBBF0DC92A095EA %}

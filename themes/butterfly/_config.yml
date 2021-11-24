@@ -102,13 +102,13 @@ avatar:
 disable_top_img: false
 
 #主页的横幅图像
-index_img: https://images.pexels.com/photos/2885320/pexels-photo-2885320.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=1080&w=1920
+index_img: https://s3.bmp.ovh/imgs/2021/11/3450545ad45eb969.jpg
 
 #如果页面的横幅未设置，则会显示顶部图片
 default_top_img:
 
 #归档页面的横幅图像
-archive_img: https://images.pexels.com/photos/211151/pexels-photo-211151.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260
+archive_img: https://images.pexels.com/photos/2908984/pexels-photo-2908984.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
 #如果标签页的横幅未设置，则会显示顶部图片
 #注意：标记页，而不是标记页(子標籤頁面的 顶部（img）
 tag_img: https://images.pexels.com/photos/507410/pexels-photo-507410.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500
@@ -849,6 +849,8 @@ hpptalk:
   css: https://cdn.jsdelivr.net/gh/HexoPlusPlus/HexoPlusPlus@1.2.0/talk.css
   option:
   front_matter:
+  top_img: https://images.pexels.com/photos/1486222/pexels-photo-1486222.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+  title: '笨嘴拙舌'
 # PWA
 # See https://github.com/JLHwung/hexo-offline
 # ---------------

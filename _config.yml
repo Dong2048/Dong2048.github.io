@@ -133,7 +133,7 @@ douban:
     limit:
   game:
     title: 'here we go！'
-    quote: '这里是收录的游戏清单，如果有你喜欢的电影请留言'
+    quote: '这里是收录的游戏清单，如果有你喜欢的游戏请留言'
     meta: true
     comments: true
     top_img: https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimage.uczzd.cn%2F14910312721124082432.jpg%3Fid%3D0from%3Dexport&refer=http%3A%2F%2Fimage.uczzd.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1639820184&t=4ab801e6b29306a5ff1a5bf59d1c39d9

@@ -16,7 +16,7 @@ menu:
      游戏: /games/ || fas fa-gamepad
    分类: /categories/ || fas fa-folder-open
    标签: /tags/ || fas fa-tags
-   笨嘴拙舌: /hpptalk/ || fas fa-edit
+   笨嘴拙舌: /my_hpptalk/ || fas fa-edit
    归档: /archives/ || fas fa-archive
    友情链接: /link/ || fas fa-link
    关于我: /about/ || fas fa-heart
@@ -91,11 +91,11 @@ katex:
 # --------------------------------------
 
 # Favicon（网站图标）
-favicon: https://images.pexels.com/photos/287229/pexels-photo-287229.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+favicon: https://img.zcool.cn/community/01ffdf5b706950a801206a359c7cd6.jpg@1280w_1l_2o_100sh.jpg
 
 # Avatar (头像)
 avatar:
-  img: https://images.pexels.com/photos/287229/pexels-photo-287229.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+  img: https://img.zcool.cn/community/01ffdf5b706950a801206a359c7cd6.jpg@1280w_1l_2o_100sh.jpg
   effect: false
 
 # 禁用所有横幅图像
@@ -105,10 +105,10 @@ disable_top_img: false
 index_img: https://s3.bmp.ovh/imgs/2021/11/3450545ad45eb969.jpg
 
 #如果页面的横幅未设置，则会显示顶部图片
-default_top_img:
+default_top_img: https://w.wallhaven.cc/full/y8/wallhaven-y89del.png
 
 #归档页面的横幅图像
-archive_img: https://images.pexels.com/photos/2908984/pexels-photo-2908984.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+archive_img: http://inews.gtimg.com/newsapp_ls/0/14257433703/0
 #如果标签页的横幅未设置，则会显示顶部图片
 #注意：标记页，而不是标记页(子標籤頁面的 顶部（img）
 tag_img: https://images.pexels.com/photos/507410/pexels-photo-507410.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500
@@ -842,15 +842,13 @@ lazyload:
 hpptalk:
   enable: true 
   domain: sparkling-voice-8f51.dongshuai.workers.dev
-  path:
+  path: /my_hpptalk
   limit:
   start:
   js: https://cdn.jsdelivr.net/gh/HexoPlusPlus/HexoPlusPlus@1.2.0/talk_user.js
   css: https://cdn.jsdelivr.net/gh/HexoPlusPlus/HexoPlusPlus@1.2.0/talk.css
   option:
   front_matter:
-  top_img: https://images.pexels.com/photos/1486222/pexels-photo-1486222.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
-  title: '笨嘴拙舌'
 # PWA
 # See https://github.com/JLHwung/hexo-offline
 # ---------------

@@ -17,6 +17,7 @@ menu:
    分类: /categories/ || fas fa-folder-open
    标签: /tags/ || fas fa-tags
    笨嘴拙舌: /my_hpptalk/ || fas fa-edit
+   留言板: /comments/ || fas fa-comments
    归档: /archives/ || fas fa-archive
    友情链接: /link/ || fas fa-link
    关于我: /about/ || fas fa-heart
@@ -47,7 +48,7 @@ copy:
 # formal:
 #   icon: link || the description
 social:
-   # fas fa-rss: https://github.com/Dong2048 || 订阅
+   fas fa-rss: https://www.shijuevr.top/atom.xml || 订阅
    fas fa-envelope: mailto:shuaid@foxmail.com || Email
    fab fa-weibo: https://weibo.com/u/3197883960 || 微博
    fab fa-qq: https://preview.cloud.189.cn/image/imageAction?param=31C28F5A4F8CA57461E99FE12B6CB58B8BAEBEB37378CFABF194F3E13AC187176F8F7F107CFAEF849D9591BC9F13D7D559DA2E32BD8421926EDA6A6B95404F80A33FE2B230A7B6B21C9DCD37BF410A5D10A96463D3EC450A6936293502877B76A320A88C6DE7D6558DE998CF7327529DE7B7B523 || QQ
@@ -849,6 +850,25 @@ hpptalk:
   css: https://cdn.jsdelivr.net/gh/HexoPlusPlus/HexoPlusPlus@1.2.0/talk.css
   option:
   front_matter:
+    title: 笨嘴拙舌
+    comments: false
+    top_img:
+
+##留言板信封
+envelope_comment:
+  enable: true
+  cover: https://www.hualigs.cn/image/61b962844fb85.jpg # 信笺封面图
+  message: # 信笺内容，支持多行
+    - 欢迎大家来吐槽！
+  bottom: 小猫咪书记官竭诚为您服务！   # 信笺结束语，只能单行
+  height: 850px                         # 调整信笺划出高度，默认1050px
+  path:                            # 【可选】comments 的路径名称。默认为 comments ， 生成的页面为 comments/index.html
+  front_matter: # 【可选】comments页面的 front_matter 配置
+    title: 留言板
+    comments: true
+    aside: false
+    top_img: https://www.hualigs.cn/image/61b96049b99e6.jpg
+
 # PWA
 # See https://github.com/JLHwung/hexo-offline
 # ---------------

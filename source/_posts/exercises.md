@@ -73,7 +73,7 @@ HashMap是数组、链表、红黑树实现的。红黑树又称自平衡二叉�
 > （六） Spring源码是提高java水平很好的范例。   
 > 个人认为在应用层Spring是没有缺点的，如果必须说出缺点的话就是就是深入了解底层的Spring比较困难，上层使用越简单，底层封装越复杂，Spring源码有超过百万行。  
 #### 11、什么是IOC容器，有什么作用？
-> IOC通俗的讲就是控制反转，当引入了IOC就是将创建对象的控制权交给了Spring的IOC容器，不实用IOC的话对象是开发人员通过new对象去创建的，现在是由IOC创建对象，使用对象的话通过DI依赖注入获取， 
+> IOC通俗的讲就是控制反转，当引入了IOC就是将创建对象的控制权交给了Spring的IOC容器，不使用IOC的话对象是开发人员通过new对象去创建的，现在是由IOC创建对象，使用对象的话通过DI依赖注入获取， 
 #### 12、Spring IOC的实现机制是什么？
 > 通过简单工厂+反射机制实现的。  
 #### 13、Spring的IOC和DI有什么区别？
@@ -95,3 +95,57 @@ HashMap是数组、链表、红黑树实现的。红黑树又称自平衡二叉�
 > （五） BeanFactory也是容器，应为它管理着Bean的生命周期。  
 #### 16、BeanDefinition的作用
 > BeanDefinition是存储Bean的定义信息的，比如比如是否多例、是否懒加载、是否抽象、是否自动装配等，它决定了Bean的生产方式。  
+#### 17、BeanFactory和Applicationcontext的区别。
+> （一） Applicationcontext是Spring的上下文，是Spring的容器。Applicationcontext实现了BeanFactory，Applicationcontext不生产Bean，是通知BeanFactory生产
+> Bean，Applicationcontext和BeanFactory都可以作为Spring容器，都管理着Bean的生命周期。Applicationcontext做的事情更多，比如：自动将配置好的Bean注册、加载环境变量、支持多语言、这册对外扩展的接口等。  
+#### 18、Spring ioc容器的加载过程。
+> 当创建一个Spring容器或者加载一个Spring上下文的时候就开始了IOC的加载，IOC的加载就是创建Bean的过程。   
+> （一） 实例化一个Applicationcontext的对象。  
+> （二） 调用Bean工厂后置处理器完成扫描。  
+> （三） 循环解析扫描出来的类的信息。   
+> （四） 实例化一个BeanDefinition对象存储解析出来的类信息。    
+> （五） 把实例化beanDefinition对象put到beanDefinitionMap中缓存起来，方便以后实例化Bean。  
+> （六） 再次调用其他Bean工厂的后置处理器。  
+> （七） 验证Bean定义是否懒加载、是否是单俐、是否抽象，验证通过后会在IOC加载时生产。
+> （八） 在生产的时候会先去容器看一下是否有生产好的bean，有则返回，没有则生产。
+> （九）通过反射拿到一个没有赋值属性的对象。  
+> （十） 判断是否注入。
+> （十一）判断Bean类型，回调Awaro接口。  
+> （十二）调用生命周期回调方法。  
+>  (十三）如果需要代理则完成代理（AOP)。
+> （十四）put到单俐池，生产Bean完成，存在Spring容器中。
+#### 19、Spring IOC扩展点有什么作用？
+> IOC加载的时候提供的扩展接口或者说扩展方法。
+#### 20、什么是SpringBean、javaBean、对象
+> SpringBean是交给Spring管理的对象。javabean是符合规范的Java对象，比如类是公开的、属性是私有的、提供get和set方法等。  
+#### 21、配置Bean的几种方法？
+>  (一) xml方式。
+>  (二) 注解方式需要配置扫面包。
+>  (三) javaConfig@Bean方式自己实例化对象。
+>  (四) @Input。
+#### 22、Spring有几种作用域
+>  (一) 单俐。
+>  (二) 多例。
+>  (三) Web应用的话有session、request、application作用域
+#### 23、单俐Bean的优势或者说单俐设计模式
+>  (一) 减少性能消耗、节省内存、提高内存利用率。
+>  (二) 减少JVM的回收。
+>  (三) 获取对象速度快，除第一次生成外都是从缓存获取。
+#### 24、Spring是线程安全的吗？如何处理线程安全问题，  
+> 单俐的Bean，如果类中声明了成员变量，并且有读写操作，就会线程不安全。  
+> (一) 成员变量声明在方法中。  
+> (二) 设置单俐Bean为多例Bean。
+> (三) 同步锁，并行变船行影响吞吐量。 
+> (四) 成员变量声明在方法内。  
+#### 25、实例化Bean有几种方式？
+> (一) 构造器通过反射方式。  
+> (二) 静态工厂方式，指定静态方法实例对象。  
+> (三) 实例工厂方式（@Bean）。 
+> (四) FactoryBean，实现FactoryBean的接口。
+#### 26、Bean的装配是什么？
+> 就是SpirngBean之间互相依赖起来。 
+#### 27、自动注入有什么限制吗？
+> (一) 要声明set方法
+> (二) 可以用constructor、property覆盖自动注入。  
+> (三) 不能自动注入简单属性比如：基本数据类型、字符串等。
+> (四) 自动注入不如显式装配精确。

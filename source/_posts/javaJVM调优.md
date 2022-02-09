@@ -1,7 +1,7 @@
 ---
 title: java虚拟机介绍
 date: 2021-11-15 09:18:46
-tags: java,技术
+tags: JDK
 category: 笔记
 top_img: https://s3.bmp.ovh/imgs/2021/12/816a5a30f6cee438.jpg
 cover: https://s3.bmp.ovh/imgs/2021/12/816a5a30f6cee438.jpg

@@ -2,7 +2,7 @@
 layout: hexo
 title: java题库
 date: 2021-12-01 16:50:24
-tags: java,面试题
+tags: java
 cover: https://s3.bmp.ovh/imgs/2021/12/0f977534f0668261.jpg
 category: 笔记
 top_img: https://s3.bmp.ovh/imgs/2021/12/0f977534f0668261.jpg

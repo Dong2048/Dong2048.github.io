@@ -3,8 +3,8 @@ title: 第三节 调用opencv原生API和JavaCV是如何封装了opencv的图像
 date: 2022-02-09 14:43:23
 tags: 流媒体
 category: 死磕javaCV记录
-top_img: https://s4.ax1x.com/2022/02/09/H8BFk8.jpg
-cover: https://s4.ax1x.com/2022/02/09/H8BFk8.jpg
+top_img: https://s4.ax1x.com/2022/02/10/HYMClT.jpg
+cover: https://s4.ax1x.com/2022/02/10/HYMClT.jpg
 ---
 ####⼀、前⾔
 调⽤FFmpeg原⽣API和JavaCV封装了FFmpeg的⾳视频操作结构如图： 

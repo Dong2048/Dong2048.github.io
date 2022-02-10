@@ -3,8 +3,8 @@ title: 第七节 FrameConverter转换工具类及CanvasFrame图像预览工具�
 date: 2022-02-09 15:45:57
 tags: 流媒体
 category: 死磕javaCV记录
-top_img: http://www.chahua.com/upload/3/m/20220109/501419_1641716336_1292.jpg
-cover: http://www.chahua.com/upload/3/m/20220109/501419_1641716336_1292.jpg
+top_img: https://s4.ax1x.com/2022/02/10/HYQ3vT.jpg
+cover: https://s4.ax1x.com/2022/02/10/HYQ3vT.jpg
 ---
 ####前⾔
 再此章之前，我们已经详细介绍和剖析了javacv的结构和 ffmpeg 和opencv的封装调⽤⽅式，以及javacv中重要的FrameGrabber和FrameRecorder的原理和⽤法，本章是javacv

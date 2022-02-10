@@ -3,8 +3,8 @@ title: 第六节 帧过滤器(FrameFilter)的原理与应用
 date: 2022-02-09 15:31:34
 tags: 流媒体
 category: 死磕javaCV记录
-top_img: https://s4.ax1x.com/2022/02/09/H8BFk8.jpg
-cover: https://s4.ax1x.com/2022/02/09/H8BFk8.jpg
+top_img: https://s4.ax1x.com/2022/02/10/HYMSf0.jpg
+cover: https://s4.ax1x.com/2022/02/10/HYMSf0.jpg
 ---
 ####前⾔
 在此之前，我们分析了FrameGrabber和FrameRecorder，对于⾳视频、图⽚和流媒体的输⼊输出相信⼤家已经基本掌握和了然于⼼了。那么接下来的本章，主要讲解和分析

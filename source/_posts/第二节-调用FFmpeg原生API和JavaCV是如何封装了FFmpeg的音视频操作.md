@@ -3,8 +3,8 @@ title: 第二节 调用FFmpeg原生API和JavaCV是如何封装了FFmpeg的音视
 date: 2022-02-09 14:32:31
 tags: 流媒体
 category: 死磕javaCV记录
-top_img: https://s4.ax1x.com/2022/02/09/H8BFk8.jpg
-cover: https://s4.ax1x.com/2022/02/09/H8BFk8.jpg
+top_img: https://s4.ax1x.com/2022/02/10/HYM9pV.jpg
+cover: https://s4.ax1x.com/2022/02/10/HYM9pV.jpg
 ---
 ####⼀、什么是JavaCPP
 ⼤家知道 FFmpeg 是C语⾔中著名的⾳视频库（注意，不是c++。使⽤c++调⽤ffmpeg库的性能损失与Java⽅式调⽤损耗相差并不⼤）。  

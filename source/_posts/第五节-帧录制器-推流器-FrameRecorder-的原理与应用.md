@@ -3,8 +3,8 @@ title: 第五节 帧录制器/推流器(FrameRecorder)的原理与应用
 date: 2022-02-09 15:21:07
 tags: 流媒体
 category: 死磕javaCV记录
-top_img: https://s4.ax1x.com/2022/02/09/H8BFk8.jpg
-cover: https://s4.ax1x.com/2022/02/09/H8BFk8.jpg
+top_img: https://s4.ax1x.com/2022/02/10/HYKzYq.jpg
+cover: https://s4.ax1x.com/2022/02/10/HYKzYq.jpg
 ---
 ####前⾔
 上⼀章⼤体讲解了FrameGrabber（抓取器/采集器），本章就FrameRecorder展开探索。

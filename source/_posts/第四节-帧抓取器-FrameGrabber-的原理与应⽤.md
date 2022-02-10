@@ -3,8 +3,8 @@ title: 第四节 帧抓取器(FrameGrabber)的原理与应⽤
 date: 2022-02-09 15:13:19
 tags: 流媒体
 category: 死磕javaCV记录
-top_img: https://s4.ax1x.com/2022/02/09/H8BFk8.jpg
-cover: https://s4.ax1x.com/2022/02/09/H8BFk8.jpg
+top_img: https://s4.ax1x.com/2022/02/10/HYMP6U.png
+cover: https://s4.ax1x.com/2022/02/10/HYMP6U.png
 ---
 ####前⾔
 上⼀章⼤体讲解了javaCV的结构，本章就具体的FrameGrabber实现⽅式展开探索。

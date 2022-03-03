@@ -6,18 +6,18 @@ category: 死磕javaCV记录
 top_img: https://s4.ax1x.com/2022/02/10/HYMP6U.png
 cover: https://s4.ax1x.com/2022/02/10/HYMP6U.png
 ---
-####前⾔
+#### 前⾔
 上⼀章⼤体讲解了javaCV的结构，本章就具体的FrameGrabber实现⽅式展开探索。
-####FrameGrabber(帧抓取器/采集器)介绍
+#### FrameGrabber(帧抓取器/采集器)介绍
 ⽤于采集/抓取视频图像和⾳频采样。封装了检索流信息，⾃动猜测视频解码格式，⾳视频解码等具体API，并把解码完的像 素数 据（可配置像素格式）或⾳频数据保存到
 Frame中返回等功能。
-####FrameGrabber的结构
+#### FrameGrabber的结构
 FrameGrabber本身是个抽象类，抽象了所有抓取器的通⽤⽅法和⼀些共⽤属性。
 > FrameGrabber的⼦类/实现类包含以下⼏个：
 FFmpegFrameGrabber、OpenCVFrameGrabber、IPCameraFrameGrabber、VideoInputFrameGrabber、FlyCapture2FrameGrabber、DC1394FrameGrabber、
 RealSenseFrameGrabber、OpenKinectFrameGrabber、OpenKinect2FrameGrabber、PS3EyeFrameGrabber
 >
-####⼏种FrameGrabber⼦类实现介绍
+#### ⼏种FrameGrabber⼦类实现介绍
 FFmpegFrameGrabber：强⼤到离谱的⾳视频处理/计算机视觉/图像处理库，视觉和图像处理这块没有opencv强⼤；  
 可以⽀持⽹络摄像机：udp、rtp、rtsp和rtmp等，⽀持本机设备，⽐如屏幕画⾯、摄像头、⾳频话筒设备等等、还⽀持视频⽂件、⽹络流（flv、rtmp、http⽂件流、hls、等等等）    
 OpenCVFrameGrabber：Intel开源的opencv计算机视觉/图像处理库，也⽀持读取摄像头、流媒体等，但是⼀般常⽤于读取图⽚，处理图像，流媒体⾳视频这块功能没有ffmpeg强⼤；  
@@ -32,7 +32,7 @@ RealSenseFrameGrabber：⽀持Intel的3D实感摄像头，基于openCV；
 OpenKinectFrameGrabber：⽀持Xbox Kinect v1体感摄像头，通过这个采集器可⽀持mac\linux\windows上使⽤Kinect v1；  
 OpenKinect2FrameGrabber：⽤来⽀持Xbox Kinect v2（次世代版）体感摄像头；  
 PS3EyeFrameGrabber：没错就是那个sony的PS3，⽤来⽀持PS3的体感摄像头。  
-####FrameGrabber及其实现类的⼀般使⽤流程
+#### FrameGrabber及其实现类的⼀般使⽤流程
 > new初始化及初始化设置-->start（⽤于启动⼀些初始化和解析操作）-->循环调⽤grab()获取⾳视频-->stop（销毁所有对象，回收内存）
 > 
 1、先通过各种new实现类进⾏初始化以及⼀些设置（⽐如设置分辨率、帧率等等）  
@@ -67,7 +67,7 @@ canvas.showImage(frame);// 显示画⾯
 }
 recorder.record(frame);//录制或推流操作（frame⾥可以同时包含视频和⾳频）
 >
-####FrameGrabber 的使⽤
+#### FrameGrabber 的使⽤
 1、采集/抓取的源：
 (1). 读取流媒体⽂件（视频、图⽚、⾳乐和字幕等等⽂件），例如：收流器实现，录制流媒体服务器的rtsp/rtmp视频⽂件(基于javaCV-FFMPEG)  
 (2). 拉流（拉取rtsp/rtmp/hls/flv等等流媒体），例如：收流器实现，录制流媒体服务器的rtsp/rtmp视频⽂件(基于javaCV-FFMPEG)  

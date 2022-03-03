@@ -6,13 +6,13 @@ category: 死磕javaCV记录
 top_img: https://s4.ax1x.com/2022/02/10/HYMSf0.jpg
 cover: https://s4.ax1x.com/2022/02/10/HYMSf0.jpg
 ---
-####前⾔
+#### 前⾔
 在此之前，我们分析了FrameGrabber和FrameRecorder，对于⾳视频、图⽚和流媒体的输⼊输出相信⼤家已经基本掌握和了然于⼼了。那么接下来的本章，主要讲解和分析
 FrameFilter，让我们直接开始吧。
-####FrameFilter的介绍和结构
+#### FrameFilter的介绍和结构
 FrameFilter就是过滤⾳频和视频帧，并对⾳频和视频进⾏处理的⼀个帧处理器，⽤滤镜来描述可能更为贴切⼀点（但是由于FrameFilter还可以处理⾳频，所以我们还是使⽤“过滤
 器”更合适些，虽然有可能引起歧义就是了），在采集到解码后的⾳视频源或者图像、⾳频后，对解码后的数据源进⾏加⼯的过程就是FrameFilter做的事情了。
-####FrameFilter处理流程
+#### FrameFilter处理流程
 FrameFilter的⼀般调⽤处理流程
 >初始化和设置解码后的数据--->start()--->循环start| push( Frame frame)--->Farme pull() |循环end--->结束时调⽤stop释放内存
 > 
@@ -22,12 +22,12 @@ FrameFilter的⼀般调⽤处理流程
 ![avatar](https://s4.ax1x.com/2022/02/09/HGQaVA.png)
 FrameFilter 过滤器调⽤处理流程  
 
-####FrameFilter的⼦类
+#### FrameFilter的⼦类
 FrameFilter只有⼀个实现类就是FFmpegFrameFilter，所以本章主要分析FFmpegFrameFilter。
-####FFmpegFrameFilter剖析
-####FFmpegFrameFilter介绍
+#### FFmpegFrameFilter剖析
+#### FFmpegFrameFilter介绍
 FFmpegFrameFilter本身就是FrameFilter的实现类， 结构基本相同，使⽤流程参考上⾯的流程结构图。
-####FFmpegFrameFilter代码结构剖析
+#### FFmpegFrameFilter代码结构剖析
 FFmpegFrameFilter的初始化及参数
 视频和⾳频混合过滤器初始化
 > FFmpegFrameFilter(String videoFilters, String audioFilters, int imageWidth, int imageHeight, int audioChannels)
@@ -75,5 +75,5 @@ pull()
 Frame pullImage()
 只拉取经过⾳频过滤器处理后的⾳频采样
 Frame pullSamples()
-####FFmpegFrameFilter的使⽤
+#### FFmpegFrameFilter的使⽤
 使⽤示例参考javaCV开发详解之13：使⽤FFmpeg Filter过滤器处理⾳视频

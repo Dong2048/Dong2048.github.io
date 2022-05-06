@@ -3,9 +3,9 @@ layout: hexo
 title: java题库
 date: 2021-12-01 16:50:24
 tags: java
-cover: https://s3.bmp.ovh/imgs/2021/12/0f977534f0668261.jpg
+cover: https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fi2.hdslb.com%2Fbfs%2Farchive%2F540e03f9ba1527258a27e6a0f31aacc59c6a5ec6.jpg&refer=http%3A%2F%2Fi2.hdslb.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1654421952&t=e363fdea62ccee37819c1f9151cd51ea
 category: 笔记
-top_img: https://s3.bmp.ovh/imgs/2021/12/0f977534f0668261.jpg
+top_img: https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fi2.hdslb.com%2Fbfs%2Farchive%2F540e03f9ba1527258a27e6a0f31aacc59c6a5ec6.jpg&refer=http%3A%2F%2Fi2.hdslb.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1654421952&t=e363fdea62ccee37819c1f9151cd51ea
 ---
 #### 1、HashMap的put方法
 HashMap是数组、链表、红黑树实现的。红黑树又称自平衡二叉查找树。

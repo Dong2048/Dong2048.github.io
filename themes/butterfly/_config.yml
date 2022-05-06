@@ -103,13 +103,13 @@ avatar:
 disable_top_img: false
 
 #主页的横幅图像
-index_img: https://s3.bmp.ovh/imgs/2021/11/3450545ad45eb969.jpg
+index_img: https://s1.ax1x.com/2022/05/06/Oub1TP.jpg
 
 #如果页面的横幅未设置，则会显示顶部图片
 default_top_img: https://w.wallhaven.cc/full/y8/wallhaven-y89del.png
 
 #归档页面的横幅图像
-archive_img: http://inews.gtimg.com/newsapp_ls/0/14257433703/0
+archive_img: https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fpic1.win4000.com%2Fwallpaper%2F2019-10-21%2F5dad63cfebfe9.jpg&refer=http%3A%2F%2Fpic1.win4000.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1654421268&t=531fa60711984d9c3275adaddd14ce86
 #如果标签页的横幅未设置，则会显示顶部图片
 #注意：标记页，而不是标记页(子標籤頁面的 顶部（img）
 tag_img: https://images.pexels.com/photos/507410/pexels-photo-507410.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500

@@ -16,11 +16,11 @@ MinIO是一个非常轻量的服务，可以很简单的和其他应用的结合
 - **Object** 存储到MinIO的基本对象。如文件、字节流等，举例：test。jpg、test.pdf等。
 - **Bucket** 用来存储Object的逻辑空间。每个Bucket之间的数据是相互隔离的。对于客户端而言，就相当于一个存放文件的顶层文件夹。
 - **Drive** 即存储数据的磁盘，在MinIO启动时，以参数的方式传入。MinIO中所有的对象数据都会存储在Drive里。
-- **Set** 即一组Drive的合集，分布式部署1根据集群规模自动划分一个或多个Set、每个Set中的Drive分布在不同的位置，一个对象存储在一个Set上。
-  - 一个对象存储在一个Set上。
-  - 一个集群分为多个Set。
-  - 一个Set包含的Drive数量是固定的，默认由系统根据集群规模自动计算得出。
-  - 一个Set中的Drive尽可能分布在不同的节点上。
+- **Set** 即一组Drive的合集，分布式部署1根据集群规模自动划分一个或多个Set、每个Set中的Drive分布在不同的位置，一个对象存储在一个Set上。  
+  一个对象存储在一个Set上。  
+  一个集群分为多个Set。  
+  一个Set包含的Drive数量是固定的，默认由系统根据集群规模自动计算得出。  
+  一个Set中的Drive尽可能分布在不同的节点上。  
 #### MinIO的EC码和文件存储结构
 MinIO使用纠删码机制来保证高可靠性，使用highwayhsah来处理数据损坏（Bit Rot Protection）关于纠删码，简单来说就是可以通过数学计算，
 把丢失的数据进行还原，它可以将N份原始数据，增加M份数据，并能通过N+M份中的任意N份数据，还原为原始数据。即如果有任意小于等于M份的数据失效、
@@ -33,9 +33,9 @@ MinIO使用纠删码机制来保证高可靠性，使用highwayhsah来处理数�
 /data是存储数据的驱动器或目录的路径。  
 单机版本无法使用，版本控制、对象锁定和存储桶复制等功能。如果需要使用，是需要部署 带有纠删码的分布式 MinIO。  
 ##### docker部署
-docker run \
--p 9000:9000 \
--p 9001:9001 \
+docker run \  
+-p 9000:9000 \  
+-p 9001:9001 \  
 -e "MINIO_ROOT_USER=AKIAIOSFODNN7EXAMPLE" \
 -e "MINIO_ROOT_PASSWORD=wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY" \
 quay.io/minio/minio server /data --console-address ":9001"

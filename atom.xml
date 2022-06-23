@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>董帅的个人博客</title>
+  <icon>https://www.shijuevr.top/icon.png</icon>
+  <subtitle>博客</subtitle>
+  <link href="https://www.shijuevr.top/atom.xml" rel="self"/>
+  
+  <link href="https://www.shijuevr.top/"/>
+  <updated>2022-06-23T01:34:44.608Z</updated>
+  <id>https://www.shijuevr.top/</id>
+  
+  <author>
+    <name>董帅</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>pattern</title>
+    <link href="https://www.shijuevr.top/20220620pattern/"/>
+    <id>https://www.shijuevr.top/20220620pattern/</id>
+    <published>2022-06-20T02:46:42.000Z</published>
+    <updated>2022-06-23T01:34:44.608Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/js/APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="技术" scheme="https://www.shijuevr.top/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="设计模式" scheme="https://www.shijuevr.top/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>分布式文件系统MinIO</title>
+    <link href="https://www.shijuevr.top/20220418MinIO/"/>
+    <id>https://www.shijuevr.top/20220418MinIO/</id>
+    <published>2022-04-18T06:24:38.000Z</published>
+    <updated>2022-05-06T09:04:59.567Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/js/APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="笔记" scheme="https://www.shijuevr.top/categories/%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="java" scheme="https://www.shijuevr.top/tags/java/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>shardingsphere-Proxy</title>
+    <link href="https://www.shijuevr.top/20220402shardingsphere-Proxy/"/>
+    <id>https://www.shijuevr.top/20220402shardingsphere-Proxy/</id>
+    <published>2022-04-02T06:57:07.000Z</published>
+    <updated>2022-04-02T06:57:07.576Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/js/APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Spring源码阅读笔记</title>
+    <link href="https://www.shijuevr.top/20220223Spring%E6%BA%90%E7%A0%81%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/"/>
+    <id>https://www.shijuevr.top/20220223Spring%E6%BA%90%E7%A0%81%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/</id>
+    <published>2022-02-23T09:40:02.000Z</published>
+    <updated>2022-02-23T09:50:17.894Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/js/APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="技术" scheme="https://www.shijuevr.top/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="String源码" scheme="https://www.shijuevr.top/tags/String%E6%BA%90%E7%A0%81/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>java中间件</title>
+    <link href="https://www.shijuevr.top/20220210java%E4%B8%AD%E9%97%B4%E4%BB%B6/"/>
+    <id>https://www.shijuevr.top/20220210java%E4%B8%AD%E9%97%B4%E4%BB%B6/</id>
+    <published>2022-02-10T02:24:38.000Z</published>
+    <updated>2022-03-03T02:45:58.919Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/js/APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="笔记" scheme="https://www.shijuevr.top/categories/%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="java" scheme="https://www.shijuevr.top/tags/java/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>第七节 FrameConverter转换工具类及CanvasFrame图像预览工具类</title>
+    <link href="https://www.shijuevr.top/20220209%E7%AC%AC%E4%B8%83%E8%8A%82-FrameConverter%E8%BD%AC%E6%8D%A2%E5%B7%A5%E5%85%B7%E7%B1%BB%E5%8F%8ACanvasFrame%E5%9B%BE%E5%83%8F%E9%A2%84%E8%A7%88%E5%B7%A5%E5%85%B7%E7%B1%BB/"/>
+    <id>https://www.shijuevr.top/20220209%E7%AC%AC%E4%B8%83%E8%8A%82-FrameConverter%E8%BD%AC%E6%8D%A2%E5%B7%A5%E5%85%B7%E7%B1%BB%E5%8F%8ACanvasFrame%E5%9B%BE%E5%83%8F%E9%A2%84%E8%A7%88%E5%B7%A5%E5%85%B7%E7%B1%BB/</id>
+    <published>2022-02-09T07:45:57.000Z</published>
+    <updated>2022-03-03T02:46:13.817Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/js/APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="死磕javaCV记录" scheme="https://www.shijuevr.top/categories/%E6%AD%BB%E7%A3%95javaCV%E8%AE%B0%E5%BD%95/"/>
+    
+    
+    <category term="流媒体" scheme="https://www.shijuevr.top/tags/%E6%B5%81%E5%AA%92%E4%BD%93/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>第六节 帧过滤器(FrameFilter)的原理与应用</title>
+    <link href="https://www.shijuevr.top/20220209%E7%AC%AC%E5%85%AD%E8%8A%82-%E5%B8%A7%E8%BF%87%E6%BB%A4%E5%99%A8-FrameFilter-%E7%9A%84%E5%8E%9F%E7%90%86%E4%B8%8E%E5%BA%94%E7%94%A8/"/>
+    <id>https://www.shijuevr.top/20220209%E7%AC%AC%E5%85%AD%E8%8A%82-%E5%B8%A7%E8%BF%87%E6%BB%A4%E5%99%A8-FrameFilter-%E7%9A%84%E5%8E%9F%E7%90%86%E4%B8%8E%E5%BA%94%E7%94%A8/</id>
+    <published>2022-02-09T07:31:34.000Z</published>
+    <updated>2022-03-03T02:46:46.608Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/js/APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="死磕javaCV记录" scheme="https://www.shijuevr.top/categories/%E6%AD%BB%E7%A3%95javaCV%E8%AE%B0%E5%BD%95/"/>
+    
+    
+    <category term="流媒体" scheme="https://www.shijuevr.top/tags/%E6%B5%81%E5%AA%92%E4%BD%93/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>第五节 帧录制器/推流器(FrameRecorder)的原理与应用</title>
+    <link href="https://www.shijuevr.top/20220209%E7%AC%AC%E4%BA%94%E8%8A%82-%E5%B8%A7%E5%BD%95%E5%88%B6%E5%99%A8-%E6%8E%A8%E6%B5%81%E5%99%A8-FrameRecorder-%E7%9A%84%E5%8E%9F%E7%90%86%E4%B8%8E%E5%BA%94%E7%94%A8/"/>
+    <id>https://www.shijuevr.top/20220209%E7%AC%AC%E4%BA%94%E8%8A%82-%E5%B8%A7%E5%BD%95%E5%88%B6%E5%99%A8-%E6%8E%A8%E6%B5%81%E5%99%A8-FrameRecorder-%E7%9A%84%E5%8E%9F%E7%90%86%E4%B8%8E%E5%BA%94%E7%94%A8/</id>
+    <published>2022-02-09T07:21:07.000Z</published>
+    <updated>2022-03-03T02:46:42.465Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/js/APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="死磕javaCV记录" scheme="https://www.shijuevr.top/categories/%E6%AD%BB%E7%A3%95javaCV%E8%AE%B0%E5%BD%95/"/>
+    
+    
+    <category term="流媒体" scheme="https://www.shijuevr.top/tags/%E6%B5%81%E5%AA%92%E4%BD%93/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>第四节 帧抓取器(FrameGrabber)的原理与应⽤</title>
+    <link href="https://www.shijuevr.top/20220209%E7%AC%AC%E5%9B%9B%E8%8A%82-%E5%B8%A7%E6%8A%93%E5%8F%96%E5%99%A8-FrameGrabber-%E7%9A%84%E5%8E%9F%E7%90%86%E4%B8%8E%E5%BA%94%E2%BD%A4/"/>
+    <id>https://www.shijuevr.top/20220209%E7%AC%AC%E5%9B%9B%E8%8A%82-%E5%B8%A7%E6%8A%93%E5%8F%96%E5%99%A8-FrameGrabber-%E7%9A%84%E5%8E%9F%E7%90%86%E4%B8%8E%E5%BA%94%E2%BD%A4/</id>
+    <published>2022-02-09T07:13:19.000Z</published>
+    <updated>2022-03-03T02:46:50.115Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/js/APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="死磕javaCV记录" scheme="https://www.shijuevr.top/categories/%E6%AD%BB%E7%A3%95javaCV%E8%AE%B0%E5%BD%95/"/>
+    
+    
+    <category term="流媒体" scheme="https://www.shijuevr.top/tags/%E6%B5%81%E5%AA%92%E4%BD%93/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>第三节 调用opencv原生API和JavaCV是如何封装了opencv的图像处理操作</title>
+    <link href="https://www.shijuevr.top/20220209%E7%AC%AC%E4%B8%89%E8%8A%82-%E8%B0%83%E7%94%A8opencv%E5%8E%9F%E7%94%9FAPI%E5%92%8CJavaCV%E6%98%AF%E5%A6%82%E4%BD%95%E5%B0%81%E8%A3%85%E4%BA%86opencv%E7%9A%84%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86%E6%93%8D%E4%BD%9C/"/>
+    <id>https://www.shijuevr.top/20220209%E7%AC%AC%E4%B8%89%E8%8A%82-%E8%B0%83%E7%94%A8opencv%E5%8E%9F%E7%94%9FAPI%E5%92%8CJavaCV%E6%98%AF%E5%A6%82%E4%BD%95%E5%B0%81%E8%A3%85%E4%BA%86opencv%E7%9A%84%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86%E6%93%8D%E4%BD%9C/</id>
+    <published>2022-02-09T06:43:23.000Z</published>
+    <updated>2022-03-03T02:46:23.406Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/js/APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="死磕javaCV记录" scheme="https://www.shijuevr.top/categories/%E6%AD%BB%E7%A3%95javaCV%E8%AE%B0%E5%BD%95/"/>
+    
+    
+    <category term="流媒体" scheme="https://www.shijuevr.top/tags/%E6%B5%81%E5%AA%92%E4%BD%93/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>第二节 调用FFmpeg原生API和JavaCV是如何封装了FFmpeg的音视频操作</title>
+    <link href="https://www.shijuevr.top/20220209%E7%AC%AC%E4%BA%8C%E8%8A%82-%E8%B0%83%E7%94%A8FFmpeg%E5%8E%9F%E7%94%9FAPI%E5%92%8CJavaCV%E6%98%AF%E5%A6%82%E4%BD%95%E5%B0%81%E8%A3%85%E4%BA%86FFmpeg%E7%9A%84%E9%9F%B3%E8%A7%86%E9%A2%91%E6%93%8D%E4%BD%9C/"/>
+    <id>https://www.shijuevr.top/20220209%E7%AC%AC%E4%BA%8C%E8%8A%82-%E8%B0%83%E7%94%A8FFmpeg%E5%8E%9F%E7%94%9FAPI%E5%92%8CJavaCV%E6%98%AF%E5%A6%82%E4%BD%95%E5%B0%81%E8%A3%85%E4%BA%86FFmpeg%E7%9A%84%E9%9F%B3%E8%A7%86%E9%A2%91%E6%93%8D%E4%BD%9C/</id>
+    <published>2022-02-09T06:32:31.000Z</published>
+    <updated>2022-03-03T02:46:36.858Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/js/APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="死磕javaCV记录" scheme="https://www.shijuevr.top/categories/%E6%AD%BB%E7%A3%95javaCV%E8%AE%B0%E5%BD%95/"/>
+    
+    
+    <category term="流媒体" scheme="https://www.shijuevr.top/tags/%E6%B5%81%E5%AA%92%E4%BD%93/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>第一节 javaCV开始</title>
+    <link href="https://www.shijuevr.top/20220209javaCV%E5%BC%80%E5%A7%8B/"/>
+    <id>https://www.shijuevr.top/20220209javaCV%E5%BC%80%E5%A7%8B/</id>
+    <published>2022-02-09T02:38:03.000Z</published>
+    <updated>2022-03-03T02:45:51.893Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/js/APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="死磕javaCV记录" scheme="https://www.shijuevr.top/categories/%E6%AD%BB%E7%A3%95javaCV%E8%AE%B0%E5%BD%95/"/>
+    
+    
+    <category term="流媒体" scheme="https://www.shijuevr.top/tags/%E6%B5%81%E5%AA%92%E4%BD%93/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>java题库</title>
+    <link href="https://www.shijuevr.top/20211201exercises/"/>
+    <id>https://www.shijuevr.top/20211201exercises/</id>
+    <published>2021-12-01T08:50:24.000Z</published>
+    <updated>2022-05-06T09:39:25.547Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/js/APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="笔记" scheme="https://www.shijuevr.top/categories/%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="java" scheme="https://www.shijuevr.top/tags/java/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>java虚拟机介绍</title>
+    <link href="https://www.shijuevr.top/20211115javaJVM%E8%B0%83%E4%BC%98/"/>
+    <id>https://www.shijuevr.top/20211115javaJVM%E8%B0%83%E4%BC%98/</id>
+    <published>2021-11-15T01:18:46.000Z</published>
+    <updated>2022-02-09T07:58:51.954Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/js/APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="笔记" scheme="https://www.shijuevr.top/categories/%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="JDK" scheme="https://www.shijuevr.top/tags/JDK/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>博客搭建的那些事情</title>
+    <link href="https://www.shijuevr.top/20211029helloBlog/"/>
+    <id>https://www.shijuevr.top/20211029helloBlog/</id>
+    <published>2021-10-29T07:33:09.000Z</published>
+    <updated>2022-02-09T02:57:47.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/js/APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="技术" scheme="https://www.shijuevr.top/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="博客" scheme="https://www.shijuevr.top/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+  </entry>
+  
+</feed>
